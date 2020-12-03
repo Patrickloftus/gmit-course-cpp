@@ -24,6 +24,7 @@ int main()
 
 // Task 4, Create a Menu in MAIN program for the user to select the Question / Answer using a switch statement
 
+cout <<"\n\nTask 4\n";
 
     int userinput2;
 
@@ -75,12 +76,81 @@ case 3:
 
 
 
+
 //Task 5, Create the function that can take in a radius value and Calculate the area of a circle and return the value
 
 task5 () ;
 
 
 
-    return 0;
+//Task 6, Take in two values and calculate the area of a rectangle and return the value to Main
+
+task6 () ;
+
+
+
+//task 7 is too take in two values for Temperature and Humidity and print alarm message if in or not in range
+
+task7 () ;
+
+
+//Task 8, in the main function use a loop to test your function Q5 for a range of values from 0 - 120 meters in 1 meter steps
+
+int Radius1;
+float PI;
+float areacircle1;
+
+PI = 3.14159;
+
+cout <<"\n\nTask 8 : We are going to calculate the area of a circle\n\n";
+cout << "We are going to test a range of values from 0 Meters to 120 Meters \n";
+cout << "\nPlease press 0 to continue\n\n";
+cin >> Radius1;
+
+//Formula for radius of a circle is Pie x R x R
+
+
+for (Radius1=0; Radius1<=120; Radius1++)
+
+ if (areacircle1 = PI*Radius1*Radius1)
+
+cout << "\nThe area of the circle is : " << areacircle1 << " meter Sq\n\n\n";
+
+
+
+//task 9, write a temperature conversion to convert a value to Celsius and Fahrenheit scales of temperature.
+
+task9 () ;
+
+
+
+// Task 10, Find all the even number from 0 to 1000 and Print them
+task10 () ;
+
+
+// Task 11, Write a function to find all the odd numbers between two integers
+
+task11 () ;
+
+
+
+//This task we are going to find all the odd values between two integers that are inputted by user and list them in an array
+
+task12 () ;
+
+
+//Task 13, In this task we are creating a function to pick 6 random numbers.
+task13 () ;
+
+// Task 14, This next task is to fix the issues in the code provided in the lab sheet,
+//Program was copied and pasted into this and any issues fixed,
+//Please see updated program below.
+
+task14 () ;
+
+//Task 15, Create a function that will print finished 10 times, using FOR, WHILE and DO WHILE loops.
+task15 () ;
+
+return 0;
 
 }

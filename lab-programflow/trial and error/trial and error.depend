@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606954194 source:c:\users\user\documents\labs_cpp\gmit-course-cpp\lab-programflow\trial and error\main.cpp
+	<iostream>
+	<cstdlib>
+	<stdio.h>
+
