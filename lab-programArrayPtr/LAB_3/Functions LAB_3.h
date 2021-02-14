@@ -41,15 +41,19 @@ void PrintArrayByRef(SixIntArray& arr, int scalar)
 
     for(int value : arr)
 
-    {   cout << "array value x scaler = ";
-        cout << value * scalar << "\n";
+
+
+    {
+        int answer = value*scalar;
+        cout << "array value x scaler = "  << answer << "\n";
+
     }
 }
 
 void PrintTree(char arr[7][9]){
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < 7; i++)             // 7 rows
     {
-        for (int j = 0; j < 9; j++)
+        for (int j = 0; j < 9; j++)         // 9 colums
         {
             cout << arr[i][j];
         }

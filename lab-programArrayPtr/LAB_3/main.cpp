@@ -34,6 +34,8 @@ int main()
 
     PrintArray(numbers, 6);
 
+
+
     // Task 4
     // Enter a user input called scalar
 
@@ -41,6 +43,8 @@ int main()
     cout << "\n\nEnter a scalar" << endl;
     cin >> scalar;
     cout << "\nThe scaler value you entered is: " <<  scalar << "\n\n" ;
+
+
 
     // Task 5
     // Multiply each number in the array by the scalar value entered in task 4
@@ -50,12 +54,13 @@ int main()
     PrintArrayByRef(numbers, scalar); //No explicit length passed
 
 
+
     // Task 7
     // Design your own tree
 
     cout << "\n\nWe are now going to Design your own tree\n\n" ;
 
-    char tree[7][9] = {{' ',' ',' ',' ','x',' ',' ',' ',' '},
+    char tree[7][9] = {{' ',' ',' ',' ','x',' ',' ',' ',' '},       // 7 rows and 9 colums
                        {' ',' ',' ','x','x','x',' ',' ',' '},
                        {' ',' ','x','x','x','x','x',' ',' '},
                        {' ','x','x','x','x','x','x','x',' '},
@@ -68,6 +73,7 @@ cout << "\n\nThat is the end of this LAB 3 in C++\n" ;
 cout << "Thank You\n\n" ;
     return 0;
 }
+
 
 
 
