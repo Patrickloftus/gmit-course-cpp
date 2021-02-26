@@ -5,8 +5,9 @@
 
 1613262238 c:\users\user\documents\labs_cpp\gmit-course-cpp\lab-program-class\lab-program-class\labinfo.h
 
-1613261943 source:c:\users\user\documents\labs_cpp\gmit-course-cpp\lab-program-class\lab-program-class\labinfo.cpp
+1613649561 source:c:\users\user\documents\labs_cpp\gmit-course-cpp\lab-program-class\lab-program-class\labinfo.cpp
 	<iostream>
+	<iomanip>
 	"LabInfo.h"
 
 1613261943 c:\users\user\documents\labs_cpp\gmit-course-cpp\lab-program-class\lab-program-class\labinfo.cpp

@@ -2,6 +2,7 @@
 #define LABINFO_CPP_INCLUDED
 
 #include <iostream>
+#include <iomanip>
 
 #include "LabInfo.h"
 
@@ -14,6 +15,22 @@ void Labinfo (){
 
 cout <<"Patrick Loftus";
 cout<<"\nLab using classes\n\n"<< endl;
+
+
+
+
+
+int var = 2411;
+cout<<setw()<< var;
+
+
+
+
+cout <<"\n\n";
+
+
+
+
 
 }
 
