@@ -6,16 +6,18 @@
 
 using namespace std;
 
-
+// creating the class
 
 class FootballClub {
 
-private:
+private:                    // declaring the private varaibles
     string clubname;
     string district;
     string stripColour;
 
-public:
+public:                     // declaring the public info
+
+// creating the constructer
 
 FootballClub(string clubname, string district,string stripColour){
 this->clubname = clubname;
@@ -23,7 +25,7 @@ this->district = district;
 this->stripColour = stripColour;
 }
 
-string getClubname(){
+string getClubname(){               // getting access to the information
 
 return clubname;
 
@@ -48,9 +50,11 @@ this->clubname = clubname;
 
 }
 
+// printing info to the screen
+
 void printInfo(){
 
-cout<<"Clubname : "<< clubname <<"\nDistrict : " << district <<"\nStrip Colour : " << stripColour << endl;
+cout<<"Clubname: "<< clubname <<"\nDistrict: " << district <<"\nStrip Colour: " << stripColour << endl;
 
 }
 
