@@ -33,6 +33,7 @@ return 0;
 #endif // FOOTBALL_CLUB_CPP_INCLUDED
 
 
-
+string playerSquad [14]={"Pat","John","Mark","Cathal","Brendan","James","Shane","Ronan","Fergus","Tommy","Chris","Bernard","Micky","Ollie"};
+    //int playerTeam [7] = {1,2,3,4,5,6,7};
 
 */
